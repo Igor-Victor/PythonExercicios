@@ -1,0 +1,13 @@
+print('Exercício 22: Programa que leia o nome de alguém e mostre algumas informações sobre ele.')
+nome = str(input('Insira seu nome completo: ')).strip()
+# dividir nome
+dividido = nome.split()
+n_maiusculo = nome.upper()
+n_minusculo = nome.lower()
+quantas_letras = len(nome) - nome.count(' ')
+letras_nome1 = len(dividido[0])
+print('Eis algumas informações sobre ele:')
+print('Seu nome maiúsculo é: {}! '.format(n_maiusculo))
+print('Seu nome minúsculo é: {}! '.format(n_minusculo))
+print('Seu nome tem: {} letras ao todo! '.format(quantas_letras))
+print('Seu primeiro nome tem {} letras ao todo! '.format(letras_nome1))
