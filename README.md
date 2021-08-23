@@ -1,2 +1,2 @@
 # PythonExercicios
-Alguns exercícios feitos durante o curso de python.
+Alguns exercícios feitos durante o curso de python..
