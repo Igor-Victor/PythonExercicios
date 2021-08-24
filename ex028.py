@@ -16,4 +16,4 @@ if r == 'sim':
     print('ok, lá vamos nós de novo...')
     n = int(input('Digite outro número: '))
 else:
-    print('Parabéns! Vcoê acertou!!!!')
+    print('Parabéns! Vcoê acertou!!!')
