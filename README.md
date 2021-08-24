@@ -3,4 +3,4 @@ São apenas exercícios que fiz e que estou fazendo durante o meu aprendizado da
 - GitHub
 - Portfólio
 - Revisão
-Por ora é só isso.
+- Por ora é só isso.
