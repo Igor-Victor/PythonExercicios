@@ -7,4 +7,4 @@ n = int(input('Digite um número: '))
 if n != numero:
     print('Que pena! Você errou!')
 else:
-    print('Parabéns! Vcoê acertou!!!')
+    print('Parabéns! Você acertou!!!')
