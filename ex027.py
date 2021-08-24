@@ -11,4 +11,3 @@ nome = str(input('Olá! Digite o seu nome completo por favor: '))
 n = nome.split()
 print('Seu primeiro nome é: "{}". '.format(n[0].capitalize()))
 print('Seu segndo nome é: "{}". '.format(n[len(n)-1]))
-
