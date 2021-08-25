@@ -1,7 +1,10 @@
-print('Exercício 7: Programa que leia as duas notas de um aluno, calcule e mostre a sua média.')
-print('Bem Vindo ao calculador de média!!')
-n1 = float(input('Insira sua primeira nota:'))
-n2 = float(input('Insira sua segunda nota:'))
+print('Exercício 7: Programa que lê as duas notas de um aluno, calcule e mostre a sua média.')
+print('\033[1;34;m' '-=' '\033[m' * 20)
+print('\033[1;31;mBem Vindo ao calculador de média!!\033[m')
+print('\033[1;34;m' '-=' '\033[m' * 20)
+n1 = float(input('Insira sua \033[1;34;mprimeira nota\033[m:'))
+n2 = float(input('Insira sua \033[1;31;msegunda nota\033[m:'))
+print('Sua \033[1;34;mnota 1\033[m é: \033[1;34;m{}\033[m. '.format(n1))
+print('Sua \033[1;31;mnota 2\033[m  é: \033[1;31;m{}\033[m. '.format(n2))
 m = (n1 + n2) / 2
-print('A média entre as duas notas é {:.1f}!'.format(m))
-
+print('A \033[1;36;mmédia\033[m entre as duas notas é \033[1;33;m{:.1f}\033[m!'.format(m))
