@@ -1,7 +1,7 @@
 from time import sleep
 print('Exercício 49: Refazer a tabuada porém desta vez com a estrutura de repetição for')
 print('\033[1;m-=\033[m' * 20)
-print('\033[1;34;mTabuada\033[m \033[1;31;mV2.0\033[m')
+print('\033[1;34;mTabuada\033[m \033[1;31;mV2.0\033[m') # tabela
 print('\033[1;m-=\033[m' * 20)
 p = 1
 n = int(input('Digite um número de 1 a 10, por favor: '))
