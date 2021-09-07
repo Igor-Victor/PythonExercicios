@@ -1,3 +1,5 @@
+from os import system
+system('cls')
 print('Exercício 55: Calculador do peso de 5 pessoas, que diz o maior e o menos pesos.')
 maior = 0
 menor = 0
