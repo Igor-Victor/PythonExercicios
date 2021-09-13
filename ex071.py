@@ -14,7 +14,11 @@ while True:
         cedulastotais += 1
     else:
         if cedulastotais > 0:
-            print(f'Você consegue sacar {cedulastotais} de {cedula}!')
+            print(f'\nVocê consegue sacar {cedulastotais} notas de {cedula} ', end='')
+            if cedula == 1:
+                print('real')
+            else:
+                print('reais')
         if cedula == 200:
             cedula = 50
         elif cedula == 50:
